@@ -1,0 +1,156 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.text {
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  font-size: 90%;
+}
+#izq {
+  left: 49.3%;
+  top: 9.5%;
+  transform: translate(-49.3%, -9.5%);
+}
+#barra {
+  left: 50%;
+  top: 9.5%;
+  transform: translate(-50%, -9.5%);
+}
+#der {
+  left: 50.7%;
+  top: 9.5%;
+  transform: translate(-50.7%, -9.5%);
+}
+.target {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+.sup {
+  width: inherit;
+  height: 30vh;
+  background-color: #3d3d3e;
+}
+.inf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: 10vh;
+  background-color: #e05b49;
+}
+.icon {
+  width: 50px;
+  position: absolute;
+}
+.info {
+  position: absolute;
+  color: white;
+}
+#pc {
+  width: 70px !important;
+  left: 50%;
+  top: 7%;
+  transform: translate(-50%, -7%);
+}
+#html {
+  left: 36%;
+  top: 7%;
+  transform: translate(-36%, -7%);
+}
+#css {
+  left: 35%;
+  top: 17%;
+  transform: translate(-35%, -17%);
+}
+#angular {
+  left: 60%;
+  top: 7%;
+  transform: translate(-60%, -7%);
+}
+#js {
+  left: 65%;
+  top: 11%;
+  transform: translate(-65%, -11%);
+}
+#react {
+  left: 60%;
+  top: 17%;
+  transform: translate(-60%, -17%);
+}
+#nombre {
+  font-size: 30px;
+  left: 50%;
+  top: 16%;
+  transform: translate(-50%, -16%);
+}
+#titulo {
+  font-size: 23px;
+  left: 50%;
+  top: 23%;
+  transform: translate(-50%, -23%);
+}
+/* BOTONES PARTE INFERIOR */
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  transition: all 0.7s;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0px 20px;
+}
+.redes {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.4s;
+  color: white;
+}
+#logo {
+  width: 30px;
+  transition: all 0.5s;
+}
+#github:hover {
+  width: 120px;
+  border-radius: 10px;
+}
+#github:hover > #logo {
+  transform: translateX(-30px);
+}
+#github:hover > #git {
+  transform: translateX(25px);
+  opacity: 1;
+}
+
+#Linkedin:hover {
+  width: 130px;
+  border-radius: 10px;
+}
+#Linkedin:hover > #logo {
+  transform: translateX(-38px);
+}
+#Linkedin:hover > #lin {
+  transform: translateX(23px);
+  opacity: 1;
+}
+
+#Instagram:hover {
+  width: 135px;
+  border-radius: 10px;
+}
+#Instagram:hover > #logo {
+  transform: translateX(-44px);
+}
+#Instagram:hover > #ig {
+  transform: translateX(20px);
+  opacity: 1;
+}
